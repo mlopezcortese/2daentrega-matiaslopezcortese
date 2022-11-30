@@ -1,0 +1,52 @@
+//header index
+.logo{
+    width: 140px;
+    position:relative;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+.header{
+    top: 0;
+    width: 100%;
+    align-items: center;
+    position:fixed;
+    padding: 0;
+    z-index: 1;
+    height: 0;
+    .ul2{
+        margin: 0;
+        padding: 0px;
+        padding-left: 550px;
+                
+    }
+    
+    .list__details a{
+        padding: 5px;
+        text-decoration: none;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        padding-left: 70px;
+        padding-right: 70px;
+            &:hover{
+            text-decoration: none;
+            color: red;
+            }
+        }
+    
+}
+
+.list__details2 {
+    padding: 1px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+  
+}
+
+    
+
+.navindex{
+    --bs-navbar-padding-y: 1rem;
+    
+}
+

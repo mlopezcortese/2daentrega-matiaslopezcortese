@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 80px 395px 395px 80px;
+grid-template-areas:
+"header header header header"
+"main main main main"
+"main main main main"
+"footer footer footer footer"
+
+}
+
+header{
+   
+    grid-area: header;
+}
+
+main{
+    background-color: white;
+    grid-area: main;
+   
+
+}
+
+.main2{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+footer{
+background-color: grey ;
+grid-area: footer;
+}
