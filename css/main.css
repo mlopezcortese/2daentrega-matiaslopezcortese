@@ -12,14 +12,35 @@ body {
   .footer .card__footer {
     font-size: 18px;
     text-decoration: none;
-    color: white; }
+    color: white;
+    transition: all .4s ease-in-out;
+    margin: 20px 0 0 30px; }
     .footer .card__footer:hover {
       font-family: 'Roboto', sans-serif;
-      color: red; }
+      color: black;
+      transform: scale(1.2); }
 
 p a {
   color: white;
   text-decoration: none; }
+
+.redes_buttons {
+  display: flex; }
+  .redes_buttons .l {
+    text-decoration: none;
+    font-size: 20px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: grey;
+    color: white;
+    border-radius: 50%;
+    transition: all .4s ease-in-out;
+    margin: 0 5px 10px 20px; }
+    .redes_buttons .l:hover {
+      transform: scale(1.2);
+      color: black; }
 
 * {
   margin: 0;
@@ -115,9 +136,12 @@ footer {
   position: absolute;
   z-index: 9999;
   left: 120px;
-  top: 600px; }
+  top: 600px;
+  transition: all .4s ease-in-out;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); }
   .btn2:hover {
-    background-color: darkred; }
+    background-color: darkred;
+    transform: scale(1.1); }
 
 .body__index {
   min-height: 100vh;
@@ -205,9 +229,11 @@ footer {
     outline: none;
     position: absolute;
     left: 214px;
-    top: 450px; }
+    top: 450px;
+    transition: all .4s ease-in-out; }
     .box2 .btn3:hover {
-      background-color: darkred; }
+      background-color: darkred;
+      transform: scale(1.1); }
 
 .card__new {
   position: relative;

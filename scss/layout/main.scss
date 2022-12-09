@@ -40,8 +40,11 @@
     z-index: 9999;
     left: 120px;
     top: 600px;
+    transition: all .4s ease-in-out;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
         &:hover{
             background-color: darkred;
+            transform:scale(1.1);
         
         }
 }
@@ -153,8 +156,10 @@ width: 120px;
         position: absolute;
         left: 214px;
         top: 450px;
+        transition: all .4s ease-in-out;
             &:hover{
                 background-color: darkred;
+                transform:scale(1.1);
             }
     } 
     

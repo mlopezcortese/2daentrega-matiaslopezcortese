@@ -11,13 +11,17 @@
         font-size: 18px;
         text-decoration: none;
         color: rgb(255, 255, 255);
+        transition: all .4s ease-in-out;
+        margin: 20px 0 0 30px;
        
         &:hover{
             font-family: 'Roboto', sans-serif;
-                color: red;
-          }
+            color: black;
+            transform:scale(1.2);
+        }
     }
-               
+
+          
 }
 
 p a{
@@ -25,3 +29,30 @@ p a{
     text-decoration: none;
 }
 
+
+.redes_buttons{ 
+    display:flex;
+ 
+    .l{
+        text-decoration: none;
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: grey;
+        color:white;
+        border-radius: 50%;
+        transition: all .4s ease-in-out;
+        margin: 0 5px 10px 20px;
+            &:hover{
+                transform:scale(1.2);
+                color:black
+            }
+
+    }
+
+    
+    
+}
+ 
